@@ -1,17 +1,25 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('../webfonts/Montserrat-VariableFont_wghtcopy.ttf') format('ttf');
+    src: url('../webfonts/Montserrat-VariableFont_wghtcopy.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat Alternates';
-    src: url('../webfonts/MontserratAlternates-Regular.ttf') format('ttf');
+    src: url('../webfonts/MontserratAlternates-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Fatface';
-    src: url('../webfonts/AbrilFatface-Regular.ttf') format('ttf');
+    src: url('../webfonts/AbrilFatface-Regular.ttf') format('truetype');
 }
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
 
 html {
     overflow-x: hidden;
