@@ -123,33 +123,34 @@ html {
   #discover {
     padding-bottom: -10vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: -10vw;
     margin-left: 10vw;
+    margin-right: 10vw;
     text-align: justify;
   }
   
   #discover-img {
-    width: 100vw;
-    margin-top: 23px;
-    margin-right: -50vw;
+    width: 85vw;
+    margin-top: -10vw;
+    margin-bottom: -20vw;
   }
   
   #aboutus {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    margin-right: 6vw;
+    margin-right: vw;
     text-align: justify;
-    margin-top: -20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   
   #aboutus-img {
     position: relative;
     width: 90vw;
-    margin-top: 23px;
-    margin-left: -40vw;
+    margin-top: -10vw;
   }
   
   #packages{
