@@ -13,7 +13,6 @@
     src: url('../webfonts/AbrilFatface-Regular.ttf') format('truetype');
 }
 
-@media (max-width: 767px) {
   body {
     width: 100vw;
     overflow-x: hidden;
@@ -23,9 +22,6 @@
     background-size: 100vw;
     scroll-behavior: smooth;
   }
-
-}
-
 
 html {
     overflow-x: hidden;
