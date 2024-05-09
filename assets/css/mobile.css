@@ -275,3 +275,16 @@ html {
     width: 100vw;
     margin-bottom: -10px;
   }
+
+  #comingsoon {
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 7vw;
+    font-family: 'Montserrat Alternates', monospace;
+    font-weight: lighter;
+    z-index: 3000; 
+  }
